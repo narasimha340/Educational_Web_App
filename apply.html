@@ -1,0 +1,168 @@
+<html>
+
+<head>
+
+
+    <style>
+        main {
+            display: flex;
+            height: 100%;
+        }
+
+        .man {
+            flex-basis: 30%;
+            text-align: center;
+            padding: 30px;
+            background-color: hsl(214, 90%, 51%);
+            padding-top: 200px;
+
+            color: white;
+
+        }
+
+        form {
+
+
+            padding: 50px;
+            padding-top: 150px;
+            display: grid;
+            grid-template-columns: auto auto auto;
+            grid-gap: 20px;
+            background-color: white;
+
+
+
+        }
+
+        .class1 {
+            grid-column: span 3;
+        }
+
+        .class3 {
+            grid-column: span 3;
+            text-align: center;
+        }
+
+        input {
+            box-shadow: 5px 5px 5px skyblue;
+        }
+
+        input:hover {
+            background-color: cyan;
+        }
+
+        textarea {
+            box-shadow: 5px 5px 5px skyblue;
+        }
+
+        textarea:hover {
+            background-color: cadetblue;
+        }
+
+        .class3 {
+            padding: 20px;
+        }
+
+        .class3 button {
+            padding-right: 30px;
+            padding-left: 30px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            border-radius: 25px;
+            margin-right: 90px;
+            background-color: white;
+        }
+
+        form input {
+            border-radius: 5px;
+            padding-right: 25px;
+            padding-left: 25px;
+            padding-top: 8px;
+            padding-bottom: 8px;
+            border: none;
+        }
+
+        textarea {
+            border-radius: 10px;
+        }
+        .class3 button:hover{
+            background-color: aqua;
+        }
+    </style>
+</head>
+
+<body>
+
+    <main>
+        <div class="man" style="text-align: center;">
+            <p><b style="font-size: large;">Delta</b> <br>
+                Publications</p>
+
+            <br>
+            <p><b style="font-size: large; text-align: center;">PENCHALA RAJU</b> <br>
+                Inspired Applications</p>
+            <br>
+            <p>
+                To Connect with us <br>
+                Please enter the details
+            </p>
+            <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+        </div>
+
+
+
+        <form class="form">
+
+
+            <div>
+                <label>First Name </label><br>
+                <input type="text" placeholder="First Name" name="name" required>
+            </div>
+
+            <div>
+                <label>Last Name </label><br>
+                <input type="text" placeholder="Last Name">
+            </div>
+            <div>
+                <label>Age</label><br>
+                <input type="number" placeholder="18-100" name="age" required>
+            </div>
+
+            <diV>
+                <label for="mobile">Mobile Number</label><br>
+                <input type="number" placeholder="** **">
+            </diV>
+            <div>
+                <label for="email">Email</label><br>
+                <input type="email" placeholder="abc@xxx.zzz">
+            </div>
+
+            <diV class="class1">
+                <label>Description</label><br>
+                <textarea rows="7" cols="85" name="textarea" required></textarea>
+            </diV>
+            <diV>
+                <label>Password</label><br>
+                <input type="password" placeholder="Enter Password"><br>
+            </diV>
+            <div class="class2">
+                <label>Confirm Password</label><br>
+                <input type="password" placeholder="Confirm Password">
+            </div>
+            <diV class="class3">
+                <button>Reset</button>
+                <button>Submit</button>
+            </diV>
+        </form>
+
+        </div>
+    </main>
+
+
+
+
+
+</body>
+
+</html>
